@@ -1,5 +1,5 @@
 <h2>Add & List</h2>
-INPUT BOX
-<app-list-items>
-
-</app-list-items>
+<label for="textInput">Text to add</label>
+<input type="text" id="textInput" maxlength="50">
+<button (click)="addText()">ADD</button>
+<app-list-items #listItems></app-list-items>
